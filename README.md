@@ -12,6 +12,8 @@ update date: 2020-01-17
 ## Construction 构建
 ### 基础软件
 - 7-Zip	F:\Program\7-Zip	https://www.7-zip.org/	https://www.7-zip.org/a/7z1902-x64.exe
+	> 7-zip可以作为一个文件资源管理器来使用
+
 - chromium https://download-chromium.appspot.com/	[ https://download-chromium.appspot.com/?platform=Win_x64&type=snapshots  https://commondatastorage.googleapis.com/chromium-browser-snapshots/Win_x64/732653/chrome-win.zip ]
     F:\app\chrome-win\chrome.exe --user-data-dir=../browserData  
     F:\app\chromeextensions  
@@ -20,7 +22,7 @@ update date: 2020-01-17
   > Firefox开发者版安装在C盘,保存的密码和个人数据不会出现在somedir-2020xxxx.7z发布包中
 
 - yandex.Browser
-- /× yandex.disk	https://disk.yandex.ru/download?src=Yandex.Sidebar#pc ×/
+- /* yandex.disk	https://disk.yandex.ru/download?src=Yandex.Sidebar#pc */
 - Microsoft Edge 版本 79.0.309.65 (官方内部版本) (64 位)此浏览器基于 Chromium 开源项目及其他 开源软件。Microsoft Edge© 2020 Microsoft Corporation
 
 ### html javascript  css
@@ -42,12 +44,16 @@ update date: 2020-01-17
 ### C
 - TinyCC	F:\tcc	https://bellard.org/tcc/	[ http://download.savannah.gnu.org/releases/tinycc/tcc-0.9.27-win64-bin.zip  http://download.savannah.gnu.org/releases/tinycc/winapi-full-for-0.9.27.zip ]	
 
+### Tools
+- Typora — a markdown editor	F:\Program\Typora	https://www.typora.io/  https://www.typora.io/windows/typora-setup-x64.exe?
+- Guitar — Git GUI Client, written in C++, powered by Qt5	https://github.com/soramimi/Guitar
+
 ## game
 starcraft 1.08	F:\game\starcraft
 
 ## chrome setting and extensions
-chrome://chrome-urls/
-chrome://flags/
+chrome://chrome-urls/  
+chrome://flags/  
 
 Experimental Web Platform features
 Enables experimental Web Platform features that are in development. – Mac, Windows, Linux, Chrome OS, Android
@@ -64,16 +70,20 @@ Enable parallel downloading to accelerate download speed. – Mac, Windows, Linu
 
 #enable-parallel-downloading
 
-F:\app\chromeextensions\
+F:\app\chromeextensions\  
 SwitchySharp
+Markdown Here
+Tampermonkey
 
 ## books
 
 
 ## wonderful github repos
-https://github.com/1j01/jspaint	F:\cloud\github\1j01\jspaint
-https://github.com/gsantner/markor
+- https://github.com/1j01/jspaint	F:\cloud\github\1j01\jspaint
+- https://github.com/gsantner/markor
+- https://github.com/nwjs/nw.js/
 
 ## screenshots
 
 ![jspaint](screenshots/2020-01-17jspaint.png)
+![tide001](screenshots/2020-01-17tide001.png)
